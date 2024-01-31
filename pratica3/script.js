@@ -1,7 +1,11 @@
 var num = 0;
 
-const contador = () => {
-    const i = Number(document.getElementById("botao").value);
-    num = num + i;
+const contadorSomar = () => {
+    num++;
+    console.log(num);
+}
+
+const contadorSubtrair = () => {
+    num--;
     console.log(num);
 }
